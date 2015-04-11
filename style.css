@@ -5,7 +5,7 @@ body {  margin: 0; padding: 0; border: 0;}
     width: 100%;
    /*  border: 2px solid green;*/
     height: 3000px;
-    background-color: white;
+    background-color: #f6f5f8;
 }
 
  
@@ -17,13 +17,14 @@ body {  margin: 0; padding: 0; border: 0;}
 
  
 .header-bottom {   
-    height:381px;  
+    height:340px;  
     background-color: gray;  
 }
 
 .filter {
-     background-color:azure ;
-     height:130px;    
+     background-color:white;
+     height:50px;  
+     border-bottom: 2px solid #efeef1;
 }
 
 section {
@@ -32,8 +33,8 @@ section {
 }
 
 article {
-      background:#fff ;    
-      height:220px;    
-      border: 2px solid #F4F4F4;
-      margin-top: 10px;
+      background-color: white;    
+      height:140px;    
+      border: 1px solid #efeef1;
+      margin-top: 40px;
 }
