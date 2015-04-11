@@ -6,30 +6,46 @@ body {  margin: 0; padding: 0; border: 0;}
    /*  border: 2px solid green;*/
     height: 3000px;
     background-color: #f6f5f8;
-}
-
- 
-
+} 
+/* start header top*/
 .header-top {
     background:#802bbd ;    
     height:80px;
+    
+}
+.user-icon {
+    float: right;
+    width: 100px;  
+}
+.helo-usen-name {
+     float: right;
+    width: 100px;
+}
+.add {
+     float: right;
+    width: 100px;
+}
+.logo {
+    width: 100%  ;
+    text-align: center;
+}
+.menu-humburger {
+    float: left;
+    width: 100px;
 }
 
+
+/* end header top*/
  
 .header-bottom {   
     height:340px;  
-    background-color: gray;  
-    
-    
+    background-color: gray;   
 
 }
-.user-data {
-     
+.user-data { 
     width: 800px;
     height: 180px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto; 
     border: 1px solid red;  
 }
 
@@ -51,4 +67,5 @@ article {
       border: 1px solid #efeef1;
       margin-top: 40px;
 }
+
 
