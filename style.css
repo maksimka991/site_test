@@ -1,1 +1,39 @@
-﻿
+@charset "UTF-8";
+body {  margin: 0; padding: 0; border: 0;}
+ 
+.wriper {
+    width: 100%;
+   /*  border: 2px solid green;*/
+    height: 3000px;
+    background-color: white;
+}
+
+ 
+
+.header-top {
+    background:#802bbd ;    
+    height:80px;
+}
+
+ 
+.header-bottom {   
+    height:381px;  
+    background-color: gray;  
+}
+
+.filter {
+     background-color:azure ;
+     height:130px;    
+}
+
+section {
+     width: 810px;
+     margin: 0 auto; /* location div = center*/
+}
+
+article {
+      background:#fff ;    
+      height:220px;    
+      border: 2px solid #F4F4F4;
+      margin-top: 10px;
+}
