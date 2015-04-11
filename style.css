@@ -19,7 +19,20 @@ body {  margin: 0; padding: 0; border: 0;}
 .header-bottom {   
     height:340px;  
     background-color: gray;  
+    
+    
+
 }
+.user-data {
+     
+    width: 800px;
+    height: 180px;
+    margin: 0 auto;
+    
+    
+    border: 1px solid red;  
+}
+
 
 .filter {
      background-color:white;
@@ -39,8 +52,3 @@ article {
       margin-top: 40px;
 }
 
-.user-data {
-    width: 800px;
-    height: 180px;
-   border: 1px solid red;  
-}
