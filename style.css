@@ -38,3 +38,9 @@ article {
       border: 1px solid #efeef1;
       margin-top: 40px;
 }
+
+.user-data {
+    width: 800px;
+    height: 180px;
+   border: 1px solid red;  
+}
