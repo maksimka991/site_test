@@ -7,48 +7,105 @@ body {  margin: 0; padding: 0; border: 0;}
     height: 3000px;
     background-color: #f6f5f8;
 } 
-/* start header top*/
+/* start header-top top*/
 .header-top {
     background:#802bbd ;    
     height:80px;
-    
-}
-.user-icon {
-    float: right;
-    width: 100px;  
-}
-.helo-usen-name {
-     float: right;
-    width: 100px;
+      
 }
 .add {
-     float: right;
-    width: 100px;
+    float: right;
+    margin: 10px; 
+}.add img{
+height: 60px;
+    width: 60px;
 }
-.logo {
+
+.helo-usen-name {
+    float: right;
+    width: 300px; 
+      
+     margin-top: 20px; 
     
-    text-align: center;
+     font-family: "Arial", Times, Sans-serif;
+     font-size: 12px;
+     color: white;
+     text-align: right;
 }
+.helo-usen-name span
+{
+font-size: 14px;
+}
+ 
+.user-icon{ /* селектор для класса avatar */
+    float: right;  
+    width: 100px; 
+    margin : 12px;  
+    background: #fff; /* фон */
+    width: 40px; /* ширина */
+    height: 40px; /* высота */
+    padding: 5px; /* внутренние отступы(верх, право, низ, лево) */
+    border: 1px solid #999; /* граница(ширина, тип, цвет) */
+    border-radius: 50%; /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
+    box-shadow: 0px 1px 1px 1px #bbb /* смещение по горизонтали, смещение по вертикали, размытие, увеличение и цвет */
+}
+.user-icon img{ /* селектор для картинки, которая "внутри" класса avatar */
+    display: block; /* картинка выводится как блок, по ширине будет равен родителю(диву в котором      находится) */
+    width: 100%; /* ширина 100% */
+    border: 0; /* граница нулевая */
+    margin: 0; /* внешний отступ отстутствует */
+    border-radius: 50%; /* читай выше */
+}
+ 
+.logo {
+    float: left;  
+     
+    /*   text logo*/
+     font-family: "Times New Roman", Times, Sans-serif;
+     font-size: 66px;
+     color: white;
+}
+
 .menu-humburger {
     float: left;
     width: 100px;
+    height: 80px;  
 }
 
-
-/* end header top*/
- 
+.menu-humburger img {
+    display: block;
+    margin : 30px;  
+}
+/* END header-top top*/
+/***************************************************************************/
+/* START header-bottom  */
 .header-bottom {   
     height:340px;  
-    background-color: gray;   
-
+    background-color: gray; 
 }
+ 
+ .header-bottom img{
+     margin-top: -6px;/* поправка щоб картінка не зїжала*/
+ 
+     position: relative;/**/
+ }
+
 .user-data { 
     width: 800px;
     height: 180px;
-    margin: 0 auto; 
+   
     border: 1px solid red;  
+    
+  margin: auto;          /**/
+  position: absolute;    /**/
+  left:0;                /**/   cener div in div
+  right: 0;              /**/
+  top: 0;                /**/
+  bottom: 0;             /**/
 }
 
+/* end header top*/
+/********************************************************************************/
 
 .filter {
      background-color:white;
