@@ -1,8 +1,15 @@
 @charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+ big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+  center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
+  article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, 
+  summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; } 
+
 body {  margin: 0; padding: 0; border: 0;}
  
 .wriper {
     width: 100%;
+    min-width: 800px;
    /*  border: 2px solid green;*/
     height: 3000px;
     background-color: #f6f5f8;
@@ -16,17 +23,16 @@ body {  margin: 0; padding: 0; border: 0;}
 .add {
     float: right;
     margin: 10px; 
-}.add img{
-height: 60px;
+}
+.add img{ 
+    height: 60px;
     width: 60px;
 }
 
 .helo-usen-name {
     float: right;
-    width: 300px; 
-      
-     margin-top: 20px; 
-    
+    width: 300px;  
+     margin-top: 20px;  
      font-family: "Arial", Times, Sans-serif;
      font-size: 12px;
      color: white;
@@ -58,8 +64,7 @@ font-size: 14px;
 }
  
 .logo {
-    float: left;  
-     
+    float: left;   
     /*   text logo*/
      font-family: "Times New Roman", Times, Sans-serif;
      font-size: 66px;
@@ -82,26 +87,56 @@ font-size: 14px;
 .header-bottom {   
     height:340px;  
     background-color: gray; 
+    
 }
  
- .header-bottom img{
-     margin-top: -6px;/* поправка щоб картінка не зїжала*/
- 
-     position: relative;/**/
- }
+ .header-bottom img{ margin-top: -6px;/* поправка щоб картінка не зїжала*/}
 
 .user-data { 
+     
     width: 800px;
     height: 180px;
-   
     border: 1px solid red;  
     
-  margin: auto;          /**/
-  position: absolute;    /**/
-  left:0;                /**/   cener div in div
-  right: 0;              /**/
-  top: 0;                /**/
-  bottom: 0;             /**/
+ /*  cener div in div 
+  margin: auto;           
+  position: absolute;    
+  left:0;                  
+  right: 0;              
+  top: 0;               
+  bottom: 0px;         
+  */
+  position: absolute;
+  top: 215px;
+    margin: auto;      
+    left:0;                  
+    right: 0; 
+    
+   font-family: "Arial", Times, Sans-serif;
+   color: white;
+   
+}
+.user-data img{ 
+    float:left; /* Выравнивание по левому краю */
+    margin: 0 20px 0 0; /* Отступы вокруг картинки */
+}
+
+.user_name{ 
+   font-size: 26px;  
+   margin-top: 70px; 
+} 
+.user_karma{ 
+   font-size: 12px; 
+    margin-top: 20px;
+} 
+
+.user_menu{ 
+    margin-top: 30px; 
+} 
+.user_menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px; 
 }
 
 /* end header top*/
@@ -124,5 +159,6 @@ article {
       border: 1px solid #efeef1;
       margin-top: 40px;
 }
+
 
 
