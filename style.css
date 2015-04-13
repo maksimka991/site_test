@@ -148,9 +148,20 @@ font-size: 14px;
      height:50px;  
      border-bottom: 2px solid #efeef1;
     
-    
+     padding-left: 200px; 
 }
 
+.active         { color: coral;         }
+.active-no      { color: deepskyblue;   }
+
+.filter img{
+   
+      vertical-align: middle;  
+}
+
+.filter span{
+    
+}
 /* END filter*/
 /********************************************************************************/
 
