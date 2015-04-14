@@ -178,7 +178,29 @@ article {
       height:140px;    
       border: 1px solid #efeef1;
       margin-top: 40px;
+    
+    
+     
 }
 
 
 
+
+.center-feed {
+    height: 180px;
+    float: left;
+}
+
+.img-feed {
+    float: left;
+}
+
+.histor-feed {
+    float: left;
+}
+
+.user_foto {
+    width: 180px;
+    height: 140px;
+ 
+}
