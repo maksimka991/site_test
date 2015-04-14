@@ -146,9 +146,10 @@ font-size: 14px;
 .filter {
      background-color:white;
      height:50px;  
-     border-bottom: 2px solid #efeef1;
-    
+     border-bottom: 2px solid #efeef1; 
      padding-left: 200px; 
+    
+     
 }
 
 .active         { color: coral;         }
