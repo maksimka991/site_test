@@ -97,9 +97,9 @@ font-size: 14px;
      
     width: 800px;
     height: 180px;
-    border: 1px solid red;  
+  /*  border: 1px solid red;  
     
- /*  cener div in div 
+   cener div in div 
   margin: auto;           
   position: absolute;    
   left:0;                  
@@ -177,30 +177,42 @@ article {
       background-color: white;    
       height:140px;    
       border: 1px solid #efeef1;
-      margin-top: 40px;
-    
-    
-     
+      margin-top: 40px; 
 }
 
-
-
-
+ 
 .center-feed {
     height: 180px;
     float: left;
+    width: 50%;
+ 
 }
 
-.img-feed {
-    float: left;
-}
-
-.histor-feed {
-    float: left;
-}
+.img-feed {  float: left; }
+.histor-feed {   float: left; }
 
 .user_foto {
     width: 180px;
-    height: 140px;
- 
+    height: 140px; 
+}
+
+.nic {
+    color: coral;
+    font-family: "Times New Roman", Times, Sans-serif;
+     font-size: 18px;
+}
+
+.type {
+    color: aliceblue;
+   
+}
+
+.text   {
+      font-family: "Times New Roman", Times,  serif;
+     font-size: 24px;
+}
+
+.close-icon-feed {
+   float: right;
+   
 }
