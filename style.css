@@ -86,17 +86,11 @@ video {
     vertical-align: baseline;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+ 
 
 .wriper {
     width: 100%;
-    min-width: 800px;
-    /*  border: 2px solid green;*/
-    
+    min-width: 800px; 
     height: 3000px;
     background-color: #f6f5f8;
 }
@@ -104,7 +98,7 @@ body {
 
 .header-top {
     background: #802bbd;
-    height: 80px;
+    height: 80px; 
 }
 
 .add {
@@ -203,10 +197,11 @@ body {
 /* START header-bottom  */
 
 .header-bottom {
-    height: 340px;
+    max-height:   340px;
     background-color: gray;
+     
 }
-
+ 
 .header-bottom img {
     margin-top: -6px;
     /* поправка щоб картінка не зїжала*/
@@ -339,3 +334,4 @@ article {
 .close-icon-feed {
     float: right;
 }
+ 
