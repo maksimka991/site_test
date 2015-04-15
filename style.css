@@ -1,103 +1,221 @@
 @charset "UTF-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
- big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
-  center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
-  article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, 
-  summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; } 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
 
-body {  margin: 0; padding: 0; border: 0;}
- 
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .wriper {
     width: 100%;
     min-width: 800px;
-   /*  border: 2px solid green;*/
+    /*  border: 2px solid green;*/
+    
     height: 3000px;
     background-color: #f6f5f8;
-} 
-/* start header-top top*/
-.header-top {
-    background:#802bbd ;    
-    height:80px;
-      
 }
+/* start header-top top*/
+
+.header-top {
+    background: #802bbd;
+    height: 80px;
+}
+
 .add {
     float: right;
-    margin: 10px; 
+    margin: 10px;
 }
-.add img{ 
+
+.add img {
     height: 60px;
     width: 60px;
 }
 
 .helo-usen-name {
     float: right;
-    width: 300px;  
-     margin-top: 20px;  
-     font-family: "Arial", Times, Sans-serif;
-     font-size: 12px;
-     color: white;
-     text-align: right;
+    width: 300px;
+    margin-top: 20px;
+    font-family: "Arial", Times, Sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: right;
 }
-.helo-usen-name span
-{
-font-size: 14px;
+
+.helo-usen-name span {
+    font-size: 14px;
 }
- 
-.user-icon{ /* селектор для класса avatar */
-    float: right;  
-    width: 100px; 
-    margin : 12px;  
-    background: #fff; /* фон */
-    width: 40px; /* ширина */
-    height: 40px; /* высота */
-    padding: 5px; /* внутренние отступы(верх, право, низ, лево) */
-    border: 1px solid #999; /* граница(ширина, тип, цвет) */
-    border-radius: 50%; /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
-    box-shadow: 0px 1px 1px 1px #bbb /* смещение по горизонтали, смещение по вертикали, размытие, увеличение и цвет */
+
+.user-icon {
+    /* селектор для класса avatar */
+    
+    float: right;
+    width: 100px;
+    margin: 12px;
+    background: #fff;
+    /* фон */
+    
+    width: 40px;
+    /* ширина */
+    
+    height: 40px;
+    /* высота */
+    
+    padding: 5px;
+    /* внутренние отступы(верх, право, низ, лево) */
+    
+    border: 1px solid #999;
+    /* граница(ширина, тип, цвет) */
+    
+    border-radius: 50%;
+    /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
+    
+    box-shadow: 0px 1px 1px 1px #bbb
+    /* смещение по горизонтали, смещение по вертикали, размытие, увеличение и цвет */
 }
-.user-icon img{ /* селектор для картинки, которая "внутри" класса avatar */
-    display: block; /* картинка выводится как блок, по ширине будет равен родителю(диву в котором      находится) */
-    width: 100%; /* ширина 100% */
-    border: 0; /* граница нулевая */
-    margin: 0; /* внешний отступ отстутствует */
-    border-radius: 50%; /* читай выше */
+
+.user-icon img {
+    /* селектор для картинки, которая "внутри" класса avatar */
+    
+    display: block;
+    /* картинка выводится как блок, по ширине будет равен родителю(диву в котором      находится) */
+    
+    width: 100%;
+    /* ширина 100% */
+    
+    border: 0;
+    /* граница нулевая */
+    
+    margin: 0;
+    /* внешний отступ отстутствует */
+    
+    border-radius: 50%;
+    /* читай выше */
 }
- 
+
 .logo {
-    float: left;   
+    float: left;
     margin-left: 400px;
     /*   text logo*/
-     font-family: "Times New Roman", Times, Sans-serif;
-     font-size: 66px;
-     color: white;
+    
+    font-family: "Times New Roman", Times, Sans-serif;
+    font-size: 66px;
+    color: white;
 }
 
 .menu-humburger {
     float: left;
     width: 100px;
-    height: 80px;  
+    height: 80px;
 }
 
 .menu-humburger img {
     display: block;
-    margin : 30px;  
+    margin: 30px;
 }
 /* END header-top top*/
 /***************************************************************************/
 /* START header-bottom  */
-.header-bottom {   
-    height:340px;  
-    background-color: gray; 
-    
-}
- 
- .header-bottom img{ margin-top: -6px;/* поправка щоб картінка не зїжала*/}
 
-.user-data { 
-     
+.header-bottom {
+    height: 340px;
+    background-color: gray;
+}
+
+.header-bottom img {
+    margin-top: -6px;
+    /* поправка щоб картінка не зїжала*/
+}
+
+.user-data {
     width: 800px;
     height: 180px;
-  /*  border: 1px solid red;  
+    /*  border: 1px solid red;  
     
    cener div in div 
   margin: auto;           
@@ -107,112 +225,117 @@ font-size: 14px;
   top: 0;               
   bottom: 0px;         
   */
-  position: absolute;
-  top: 215px;
-    margin: auto;      
-    left:0;                  
-    right: 0; 
     
-   font-family: "Arial", Times, Sans-serif;
-   color: white;
-   
-}
-.user-data img{ 
-    float:left; /* Выравнивание по левому краю */
-    margin: 0 20px 0 0; /* Отступы вокруг картинки */
+    position: absolute;
+    top: 215px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-family: "Arial", Times, Sans-serif;
+    color: white;
 }
 
-.user_name{ 
-   font-size: 26px;  
-   margin-top: 70px; 
-} 
-.user_karma{ 
-   font-size: 12px; 
+.user-data img {
+    float: left;
+    /* Выравнивание по левому краю */
+    
+    margin: 0 20px 0 0;
+    /* Отступы вокруг картинки */
+}
+
+.user_name {
+    font-size: 26px;
+    margin-top: 70px;
+}
+
+.user_karma {
+    font-size: 12px;
     margin-top: 20px;
-} 
+}
 
-.user_menu{ 
-    margin-top: 30px; 
-} 
-.user_menu a{
+.user_menu {
+    margin-top: 30px;
+}
+
+.user_menu a {
     text-decoration: none;
     color: aliceblue;
-    font-size: 16px; 
+    font-size: 16px;
 }
-
 /* end header top*/
 /********************************************************************************/
 /* BEGIN  filter*/
+
 .filter {
-     background-color:white;
-     height:50px;  
-     border-bottom: 2px solid #efeef1; 
-     padding-left: 200px; 
-    
-     
+    background-color: white;
+    height: 50px;
+    border-bottom: 2px solid #efeef1;
+    padding-left: 200px;
 }
 
-.active         { color: coral;         }
-.active-no      { color: deepskyblue;   }
-
-.filter img{
-   
-      vertical-align: middle;  
+.active {
+    color: coral;
 }
 
-.filter span{
-    
+.active-no {
+    color: deepskyblue;
 }
+
+.filter img {
+    vertical-align: middle;
+}
+
+.filter span {}
 /* END filter*/
 /********************************************************************************/
 
-
-
 section {
-     width: 810px;
-     margin: 0 auto; /* location div = center*/
+    width: 810px;
+    margin: 0 auto;
+    /* location div = center*/
 }
 
 article {
-      background-color: white;    
-      height:140px;    
-      border: 1px solid #efeef1;
-      margin-top: 40px; 
+    background-color: white;
+    height: 140px;
+    border: 1px solid #efeef1;
+    margin-top: 40px;
 }
 
- 
 .center-feed {
     height: 180px;
     float: left;
     width: 50%;
- 
 }
 
-.img-feed {  float: left; }
-.histor-feed {   float: left; }
+.img-feed {
+    float: left;
+}
+
+.histor-feed {
+    float: left;
+}
 
 .user_foto {
     width: 180px;
-    height: 140px; 
+    height: 140px;
 }
 
 .nic {
     color: coral;
     font-family: "Times New Roman", Times, Sans-serif;
-     font-size: 18px;
+    font-size: 18px;
 }
 
 .type {
     color: aliceblue;
-   
 }
 
-.text   {
-      font-family: "Times New Roman", Times,  serif;
-     font-size: 24px;
+.text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
 }
 
 .close-icon-feed {
-   float: right;
-   
+    float: right;
 }
