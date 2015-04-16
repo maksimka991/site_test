@@ -221,6 +221,7 @@ video {
   bottom: 0px;         
   */
     
+    
     position: absolute;
     top: 215px;
     margin: auto;
@@ -265,8 +266,8 @@ video {
 /* BEGIN  filter*/
 
 .filter {
+    
     background-color: white;
-    height: 50px;
     border-bottom: 2px solid #efeef1;
     padding-left: 200px;
 }
@@ -336,5 +337,6 @@ article {
 
 .close-icon-feed {
     float: right;
+    padding-right: 5px;
 }
  
