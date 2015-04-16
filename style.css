@@ -174,8 +174,8 @@ video {
 
 .logo {
     float: left;
-    margin-left: 400px;
-    /*   text logo*/
+    /* margin-left: 400px;
+       text logo*/
     
     font-family: "Times New Roman", Times, Sans-serif;
     font-size: 66px;
@@ -204,6 +204,7 @@ video {
  
 .header-bottom img {
     margin-top: -6px;
+    
     /* поправка щоб картінка не зїжала*/
 }
 
@@ -232,6 +233,9 @@ video {
 
 .user-data img {
     float: left;
+    
+    max-height: 180px;
+    max-width: 180px;
     /* Выравнивание по левому краю */
     
     margin: 0 20px 0 0;
