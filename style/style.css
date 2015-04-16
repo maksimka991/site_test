@@ -86,11 +86,21 @@ video {
     vertical-align: baseline;
 }
 
- 
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+div {
+    font-family: "MyriadProRegular", Times, Sans-serif;
+}
 
 .wriper {
     width: 100%;
-    min-width: 790px; 
+    min-width: 800px;
     height: 3000px;
     background-color: #f6f5f8;
 }
@@ -98,7 +108,7 @@ video {
 
 .header-top {
     background: #802bbd;
-    height: 80px; 
+    height: 80px;
 }
 
 .add {
@@ -115,7 +125,6 @@ video {
     float: right;
     width: 300px;
     margin-top: 20px;
-    font-family: "Arial", Times, Sans-serif;
     font-size: 12px;
     color: white;
     text-align: right;
@@ -140,15 +149,11 @@ video {
     height: 40px;
     /* высота */
     
-   
-    
     border: 2px solid #fff;
     /* граница(ширина, тип, цвет) */
     
     border-radius: 50%;
     /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
-    
-     
 }
 
 .user-icon img {
@@ -175,7 +180,6 @@ video {
     /* margin-left: 400px;
        text logo*/
     
-    font-family: "Times New Roman", Times, Sans-serif;
     font-size: 66px;
     color: white;
 }
@@ -195,42 +199,34 @@ video {
 /* START header-bottom  */
 
 .header-bottom {
-
-    max-height:   340px;
+    max-height: 340px;
     background-color: gray;
     position: relative;
 }
- 
+
 .header-bottom img {
     margin-top: -6px;
-    
     /* поправка щоб картінка не зїжала*/
 }
 
 .user-data {
-    
-    
     width: 790px;
     /* 
     width: 100%;
     width: 800px;
     */
+    
     height: 30;
-     
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-     
-    bottom: 5%;  
-    
-    font-family: "Arial", Times, Sans-serif;
+    bottom: 5%;
     color: white;
 }
 
 .user-data img {
     float: left;
-    
     max-height: 180px;
     max-width: 180px;
     /* Выравнивание по левому краю */
@@ -263,7 +259,6 @@ video {
 /* BEGIN  filter*/
 
 .filter {
-    
     background-color: white;
     border-bottom: 2px solid #efeef1;
     padding-left: 200px;
@@ -319,7 +314,6 @@ article {
 
 .nic {
     color: coral;
-    font-family: "Times New Roman", Times, Sans-serif;
     font-size: 18px;
 }
 
@@ -328,7 +322,6 @@ article {
 }
 
 .text {
-    font-family: "Times New Roman", Times, serif;
     font-size: 24px;
 }
 
@@ -336,4 +329,3 @@ article {
     float: right;
     padding-right: 5px;
 }
- 
