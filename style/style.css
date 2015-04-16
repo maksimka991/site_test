@@ -90,7 +90,7 @@ video {
 
 .wriper {
     width: 100%;
-    min-width: 800px; 
+    min-width: 790px; 
     height: 3000px;
     background-color: #f6f5f8;
 }
@@ -198,7 +198,7 @@ video {
 
     max-height:   340px;
     background-color: gray;
-     
+    position: relative;
 }
  
 .header-bottom img {
@@ -208,25 +208,22 @@ video {
 }
 
 .user-data {
+    
+    
+    width: 790px;
+    /* 
+    width: 100%;
     width: 800px;
-    height: 180px;
-    /*  border: 1px solid red;  
-    
-   cener div in div 
-  margin: auto;           
-  position: absolute;    
-  left:0;                  
-  right: 0;              
-  top: 0;               
-  bottom: 0px;         
-  */
-    
-    
+    */
+    height: 30;
+     
     position: absolute;
-    top: 215px;
     margin: auto;
     left: 0;
     right: 0;
+     
+    bottom: 5%;  
+    
     font-family: "Arial", Times, Sans-serif;
     color: white;
 }
@@ -289,7 +286,7 @@ video {
 /********************************************************************************/
 
 section {
-    width: 810px;
+    width: 790px;
     margin: 0 auto;
     /* location div = center*/
 }
