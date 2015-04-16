@@ -140,17 +140,15 @@ video {
     height: 40px;
     /* высота */
     
-    padding: 5px;
-    /* внутренние отступы(верх, право, низ, лево) */
+   
     
-    border: 1px solid #999;
+    border: 2px solid #fff;
     /* граница(ширина, тип, цвет) */
     
     border-radius: 50%;
     /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
     
-    box-shadow: 0px 1px 1px 1px #bbb
-    /* смещение по горизонтали, смещение по вертикали, размытие, увеличение и цвет */
+     
 }
 
 .user-icon img {
@@ -197,6 +195,7 @@ video {
 /* START header-bottom  */
 
 .header-bottom {
+
     max-height:   340px;
     background-color: gray;
      
