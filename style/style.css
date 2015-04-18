@@ -361,22 +361,34 @@ div {
 .filter {
     background-color: white;
     border-bottom: 2px solid #efeef1;
-    padding-left: 30%;
+    padding-left: 23%; 
 }
 
+ 
+
 .active {
-    color: coral;
+    font-family: "OpenSansSemiBold", Times, Sans-serif;
+    font-size: 16px;
+    color: #ff5600;
+    
 }
 
 .active-no {
-    color: deepskyblue;
+    font-family: "OpenSansRegular", Times, Sans-serif;
+    font-size: 16px;
+    color: #c8b4d7;
 }
 
 .filter img {
     vertical-align: middle;
 }
 
-.filter span {}
+.filter span {
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
 /* END filter*/
 /********************************************************************************/
 
@@ -394,38 +406,65 @@ article {
 }
 
 .center-feed {
+    margin-top: 20px;
+    
     height: 180px;
     float: left;
-    width: 50%;
+    width: 300px;;
 }
 
 .img-feed {
     float: left;
 }
 
-.histor-feed {
-    float: left;
-}
+
 
 .user_foto {
     width: 180px;
     height: 140px;
+    float: left;
 }
 
 .nic {
-    color: coral;
-    font-size: 18px;
+    font-family: "OpenSansSemiBold", Times, Sans-serif;
+    font-size: 14px;
+    color: #ff5600;
 }
 
 .type {
-    color: aliceblue;
+    font-family: "OpenSansItalic", Times, Sans-serif;
+    font-size: 14px;
+    color: #9e9e9e;
 }
 
 .text {
-    font-size: 24px;
+    font-family: "OpenSansBold", Times, bold;
+    font-size: 14px;
+    color: #303030;
 }
 
 .close-icon-feed {
     float: right;
-    padding-right: 5px;
+    padding-right: 15px;
+     
 }
+
+.histor-feed {
+    float: left;
+    width: 150px;
+    font-family: "OpenSansItalic", Times, Sans-serif;
+    font-size: 14px;
+    color: #9e9e9e;
+    text-align: right;
+    
+    margin-top: 20px;
+}
+.circl-icon {
+    
+    float: left;
+    left: 400px;
+    width: 40px;
+     
+    
+}
+
