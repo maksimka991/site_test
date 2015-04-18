@@ -97,10 +97,10 @@ video {
 div {
     font-family: "MyriadProRegular", Times, Sans-serif;
 }
-
+ 
 .wriper {
     width: 100%;
-    min-width: 800px;
+    min-width: 758px;
     height: 3000px;
     background-color: #f6f5f8;
 }
@@ -109,21 +109,27 @@ div {
 .header-top {
     background: #802bbd;
     height: 80px;
+    width: 100%;
 }
 
 .add {
+    width: 1%;
+    height: 100%;
     float: right;
-    margin: 10px;
+    
 }
 
 .add img {
     height: 60px;
     width: 60px;
+    
+    float: right;
+    padding-top: 10px;;
 }
 
 .helo-usen-name {
     float: right;
-    width: 300px;
+    width: 20%;
     margin-top: 20px;
     font-size: 12px;
     color: white;
@@ -138,7 +144,7 @@ div {
     /* селектор для класса avatar */
     
     float: right;
-    width: 100px;
+    width: 10%;
     margin: 12px;
     background: #fff;
     /* фон */
@@ -176,23 +182,36 @@ div {
 }
 
 .logo {
-    float: left;
-    /* margin-left: 400px;
-       text logo*/
-    
+    float: left; 
     font-size: 66px;
     color: white;
+    
+    width: 63%;
+    
+     
 }
+.logo img{
+
+  padding-left: 35%; 
+    width: 229px;
+    height: 50px;
+ 
+}
+
 
 .menu-humburger {
     float: left;
-    width: 100px;
+    width: 6%;
     height: 80px;
 }
 
-.menu-humburger img {
-    display: block;
-    margin: 30px;
+.menu-humburger img { 
+    width: 24px;
+    height: 11px;
+    
+    float: right;
+    padding-top: 30px;
+   
 }
 /* END header-top top*/
 /***************************************************************************/
@@ -202,15 +221,17 @@ div {
     max-height: 340px;
     background-color: gray;
     position: relative;
+    
+     
 }
 
 .header-bottom img {
-    margin-top: -6px;
+    
     /* поправка щоб картінка не зїжала*/
 }
 
 .user-data {
-    width: 790px;
+    width: 758px;
     /* 
     width: 100%;
     width: 800px;
@@ -261,7 +282,7 @@ div {
 .filter {
     background-color: white;
     border-bottom: 2px solid #efeef1;
-    padding-left: 200px;
+    padding-left: 30%;
 }
 
 .active {
@@ -281,7 +302,7 @@ div {
 /********************************************************************************/
 
 section {
-    width: 790px;
+    width: 758px;
     margin: 0 auto;
     /* location div = center*/
 }
