@@ -439,6 +439,10 @@ article {
     float: right;
     padding-right: 15px;
 }
+.close-icon-feed img {
+    
+    padding-right: 5px;
+}
 
 .histor-feed {
     float: left;
