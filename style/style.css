@@ -189,26 +189,21 @@ div {
 /* start header-top top*/
 
 .header-top {
-   
     height: 80px;
     width: 100%;
 }
-
-
 /* права частина  */
+
 .color-r-div {
- 
     background-color: #7427ac;
     height: 80px;
     float: left;
     width: 27%;
-    
 }
 
 .add {
     width: 1px;
     padding-left: 30px;
-     
 }
 
 .add img {
@@ -216,13 +211,10 @@ div {
     width: 60px;
     float: right;
     padding-top: 11px;
-   
-    
 }
 
 .helo-usen-name {
     float: right;
-     
     margin-top: 20px;
     font-size: 14px;
     color: white;
@@ -236,12 +228,9 @@ div {
 
 .user-icon {
     float: right;
-    
     margin-left: 15px;
     margin-right: 40px;
     margin-top: 18px;
-    
-    
     background: #fff;
     width: 40px;
     height: 40px;
@@ -257,8 +246,8 @@ div {
     margin: 0;
     border-radius: 50%;
 }
-
 /* ліва частина  */
+
 .color-l-div {
     background: #802bbd;
     height: 80px;
@@ -266,8 +255,9 @@ div {
     width: 73%;
     height: 80px;
 }
+
 .logo {
-    float: left; 
+    float: left;
     width: 93%;
 }
 
@@ -322,8 +312,8 @@ div {
 .user-data img {
     float: left;
     height: 180px;
-    width: 180px; 
-    margin: 0 20px 0 0; 
+    width: 180px;
+    margin: 0 20px 0 0;
 }
 
 .user_name {
@@ -362,8 +352,9 @@ div {
     padding-left: 21%;
 }
 
-.active { 
+.active {
     /*font-family: "OpenSansSemiBold", Times, Sans-serif;*/
+    
     font-family: "OpenSansRegular", Times, Sans-serif;
     font-size: 16px;
     color: #ff5600;
@@ -406,11 +397,13 @@ article {
     height: 180px;
     float: left;
     width: 300px;
-    ;
+    
+    margin-left: -30px;
 }
 
 .img-feed {
     float: left;
+    
 }
 
 .user_foto {
@@ -438,12 +431,21 @@ article {
 }
 
 .close-icon-feed {
-    float: right;
-    padding-right: 15px;
+    float: right; 
+   width: 30px;
+    height: 100%;
 }
 
 .close-icon-feed img {
-    padding-right: 5px;
+   float: left;
+}
+.x{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.opt{
+    padding-top: 10px;
 }
 
 .histor-feed {
@@ -457,9 +459,10 @@ article {
 }
 
 .circl-icon {
-    float: left;
-    left: 400px;
+    float: left; 
     width: 40px;
+    
+    padding-left: 20px; 
 }
 
 .icons img {
@@ -474,6 +477,5 @@ article {
     font-family: "OpenSansLight", Times, Sans-serif;
     font-size: 14px;
     color: #8e8e8e;
+    padding-right: 13px;
 }
-
-
