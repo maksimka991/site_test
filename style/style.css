@@ -362,8 +362,9 @@ div {
     padding-left: 21%;
 }
 
-.active {
-    font-family: "OpenSansSemiBold", Times, Sans-serif;
+.active { 
+    /*font-family: "OpenSansSemiBold", Times, Sans-serif;*/
+    font-family: "OpenSansRegular", Times, Sans-serif;
     font-size: 16px;
     color: #ff5600;
 }
