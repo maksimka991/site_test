@@ -360,10 +360,12 @@ div {
     background-color: white;
     border-bottom: 2px solid #efeef1;
     padding-left: 21%;
+    width: 700px;
 }
 
 .active {
-    font-family: "OpenSansSemiBold", Times, Sans-serif;
+    /*font-family: "OpenSansSemiBold", Times, Sans-serif;*/
+    font-family: "OpenSansRegular", Times, Sans-serif;
     font-size: 16px;
     color: #ff5600;
 }
