@@ -182,35 +182,47 @@ div {
 
 .wriper {
     width: 100%;
-    min-width: 758px;
-    height: 3000px;
+    min-width: 1000px;
+    height: 1000px;
     background-color: #f6f5f8;
 }
 /* start header-top top*/
 
 .header-top {
-    background: #802bbd;
+   
     height: 80px;
     width: 100%;
 }
 
+
+/* права частина  */
+.color-r-div {
+ 
+    background-color: #7427ac;
+    height: 80px;
+    float: left;
+    width: 27%;
+    
+}
+
 .add {
-    width: 1%;
-    height: 100%;
-    float: right;
+    width: 1px;
+    padding-left: 30px;
+     
 }
 
 .add img {
     height: 60px;
     width: 60px;
     float: right;
-    padding-top: 10px;
-    ;
+    padding-top: 11px;
+   
+    
 }
 
 .helo-usen-name {
     float: right;
-    width: 20%;
+     
     margin-top: 20px;
     font-size: 14px;
     color: white;
@@ -223,51 +235,42 @@ div {
 }
 
 .user-icon {
-    /* селектор для класса avatar */
-    
     float: right;
-    width: 10%;
-    margin: 12px;
+    
+    margin-left: 15px;
+    margin-right: 40px;
+    margin-top: 18px;
+    
+    
     background: #fff;
-    /* фон */
-    
     width: 40px;
-    /* ширина */
-    
     height: 40px;
-    /* высота */
-    
     border: 2px solid #fff;
-    /* граница(ширина, тип, цвет) */
-    
     border-radius: 50%;
     /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
 }
 
 .user-icon img {
-    /* селектор для картинки, которая "внутри" класса avatar */
-    
     display: block;
-    /* картинка выводится как блок, по ширине будет равен родителю(диву в котором      находится) */
-    
     width: 100%;
-    /* ширина 100% */
-    
     border: 0;
-    /* граница нулевая */
-    
     margin: 0;
-    /* внешний отступ отстутствует */
-    
     border-radius: 50%;
-    /* читай выше */
 }
 
+/* ліва частина  */
+.color-l-div {
+    background: #802bbd;
+    height: 80px;
+    float: left;
+    width: 73%;
+    height: 80px;
+}
 .logo {
     float: left;
     color: white;
     padding-top: 20px;
-    width: 63%;
+    width: 93%;
 }
 
 .logo img {
@@ -278,7 +281,7 @@ div {
 
 .menu-humburger {
     float: left;
-    width: 6%;
+    width: 7%;
     height: 80px;
 }
 
@@ -286,7 +289,7 @@ div {
     width: 24px;
     height: 11px;
     float: right;
-    padding-top: 30px;
+    padding-top: 31px;
 }
 /* END header-top top*/
 /***************************************************************************/
@@ -319,11 +322,8 @@ div {
 .user-data img {
     float: left;
     height: 180px;
-    width: 180px;
-    /* Выравнивание по левому краю */
-    
-    margin: 0 20px 0 0;
-    /* Отступы вокруг картинки */
+    width: 180px; 
+    margin: 0 20px 0 0; 
 }
 
 .user_name {
@@ -389,6 +389,7 @@ section {
     width: 758px;
     margin: 0 auto;
     /* location div = center*/
+    
     margin-top: 30px;
 }
 
@@ -439,8 +440,8 @@ article {
     float: right;
     padding-right: 15px;
 }
+
 .close-icon-feed img {
-    
     padding-right: 5px;
 }
 
@@ -473,3 +474,5 @@ article {
     font-size: 14px;
     color: #8e8e8e;
 }
+
+
