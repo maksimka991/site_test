@@ -6,7 +6,7 @@
 <g id="Слой_1">
 </g>
 <g id="Слой_2">
-	<path fill="none" stroke="#FF7936" stroke-width="4" stroke-miterlimit="10" d="M79,67c0,2.2-1.8,4-4,4H60.1L50,80l-10.1-9H25
+    <path fill="none" stroke="#c4c4c4" stroke-width="4" stroke-miterlimit="10" d="M79,67c0,2.2-1.8,4-4,4H60.1L50,80l-10.1-9H25
 		c-2.2,0-4-1.8-4-4V32c0-2.2,1.8-4,4-4h50c2.2,0,4,1.8,4,4V67z"/>
 </g>
 </svg>

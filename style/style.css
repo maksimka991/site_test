@@ -309,7 +309,7 @@ div {
     width: 800px;
     */
     
-    height: 30;
+     
     position: absolute;
     margin: auto;
     left: 0;
@@ -320,13 +320,20 @@ div {
 
 .user-data img {
     float: left;
-    max-height: 180px;
-    max-width: 180px;
+    height: 180px;
+     width: 180px;
+    
+    
     /* Выравнивание по левому краю */
     
     margin: 0 20px 0 0;
+ 
     /* Отступы вокруг картинки */
 }
+
+ 
+
+
 
 .user_name {
     font-family: "OpenSansBold", Times, bold;
@@ -362,8 +369,9 @@ div {
     background-color: white;
     border-bottom: 2px solid #efeef1;
     padding-left: 23%;
+    
 }
-
+ 
 .active {
     font-family: "OpenSansSemiBold", Times, Sans-serif;
     font-size: 16px;
@@ -378,9 +386,11 @@ div {
 
 .filter img {
     vertical-align: middle;
+     
 }
 
 .filter span {
+  
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -458,12 +468,17 @@ article {
 }
 
 .icons img {
-    width: 30px;
-    height: 20px;
+    float: left;
+    padding-top: 20px;
+    width: 35px;
+    
 }
 
 .icons span {
+    float: left;
+    padding-top: 27px;
     font-family: "OpenSansLight", Times, Sans-serif;
     font-size: 14px;
     color: #8e8e8e;
 }
+ 
