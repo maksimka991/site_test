@@ -292,14 +292,12 @@ div {
 
 .header-bottom img {
     /* поправка щоб картінка не зїжала*/
+    
 }
 
 .user-data {
     width: 758px;
-    /* 
-    width: 100%;
-    width: 800px;
-    */
+   
     
     position: absolute;
     margin: auto;
@@ -349,15 +347,18 @@ div {
 .filter {
     background-color: white;
     border-bottom: 2px solid #efeef1;
-    padding-left: 21%;
+    
+    height: 40px;
+    
+  
 }
 
 .active {
-    /*font-family: "OpenSansSemiBold", Times, Sans-serif;*/
-    
+    /*font-family: "OpenSansSemiBold", Times, Sans-serif;*/ 
     font-family: "OpenSansRegular", Times, Sans-serif;
     font-size: 16px;
     color: #ff5600;
+    float: left;
 }
 
 .active-no {
@@ -366,14 +367,20 @@ div {
     color: #c8b4d7;
 }
 
-.filter img {
-    vertical-align: middle;
-}
+ 
 
 .filter span {
     margin-left: 50px;
     margin-right: 50px;
 }
+ 
+.centr {
+    float: left;
+    height: 30px;;
+    width: 2px;
+    background-color: #f6f5f8;
+}
+
 /* END filter*/
 /********************************************************************************/
 
@@ -450,7 +457,7 @@ article {
 
 .histor-feed {
     float: left;
-    width: 150px;
+    width: 200px;
     font-family: "OpenSansItalic", Times, Sans-serif;
     font-size: 14px;
     color: #9e9e9e;
@@ -463,6 +470,10 @@ article {
     width: 40px;
     
     padding-left: 20px; 
+}
+.icons{
+    height: 100px;
+   margin-left: -8px; 
 }
 
 .icons img {
@@ -479,3 +490,5 @@ article {
     color: #8e8e8e;
     padding-right: 13px;
 }
+
+
