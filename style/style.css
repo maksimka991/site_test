@@ -421,7 +421,7 @@ article {
     margin-top: 20px;
     height: 180px;
     float: left;
-    width: 300px;
+    width: 290px;
     
     margin-left: -30px;
 }
@@ -484,13 +484,36 @@ article {
     text-align: right;
     margin-top: 20px;
 }
+ 
 
 .circl-icon {
     float: left; 
-    width: 40px;
-    
-    padding-left: 20px; 
+    width: 60px; 
+    padding-left: 12px; 
 }
+ 
+
+.user-icon-big {
+    float: right;
+    margin-left: 15px;
+    margin-right: 40px;
+    margin-top: 18px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
+}
+
+.user-icon-big img {
+    display: block;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-radius: 50%;
+}
+
 .icons{
     height: 100px;
    margin-left: -8px; 
