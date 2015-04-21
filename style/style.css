@@ -84,8 +84,13 @@ video {
     padding: 0;
     border: 0;
     vertical-align: baseline;
-}
-/* font-family: "OpenSansRegular"; */
+    
+    /*вимикаємо виділення*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+} 
 
 @font-face {
     font-family: "OpenSansRegular";
@@ -296,9 +301,7 @@ div {
 }
 
 .user-data {
-    width: 758px;
-   
-    
+    width: 758px; 
     position: absolute;
     margin: auto;
     left: 0;
@@ -370,6 +373,7 @@ div {
 .filter span {
     margin-left: 50px;
     margin-right: 50px; 
+    cursor: default;
 }
  
 .centr {
