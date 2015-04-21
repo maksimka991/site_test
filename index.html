@@ -48,7 +48,7 @@
             </div>
         </header>
 
-        <header class="header-bottom"> <img src="img/ph.png"  height="100%" />
+        <header class="header-bottom"> <img src="img/ph.png" height="100%" />
 
             <div class="user-data">
 
@@ -75,19 +75,31 @@
         <div class="filter">
 
             <div id="switch-on">
-                <span class="active"    href="javascript:void(0)" onclick="testBlock()">All notification</span> 
-                
+                <div class="left-filter">
+                    <span class="active" href="javascript:void(0)" onclick="testBlock()">All notification</span>
+                    <div class="select_line"></div>
+                </div>
+
                 <div class="centr"> </div>
-                
-                <span class="active-no" href="javascript:void(0)" onclick="testBlock()">Most important  </span>
+
+                <div class="right-filter">
+                    <span class="active-no" href="javascript:void(0)" onclick="testBlock()">Most important  </span>
+                </div>
             </div>
             <!-- hidden div  -->
             <div id="switch-off" style="display:none;">
-                <span class="active-no" href="javascript:void(0)" onclick="testBlock()"> All notification  </span>
-               
-                <span class="active"    href="javascript:void(0)" onclick="testBlock()"> Most important</span>
-            </div>
+                <div class="left-filter">
+                    <span class="active-no" href="javascript:void(0)" onclick="testBlock()"> All notification  </span>
+                </div>
+                <div class="centr"> </div>
 
+                <div class="right-filter">
+
+                    <span class="active" href="javascript:void(0)" onclick="testBlock()"> Most important</span>
+                    <div class="select_line"></div>
+                    
+                </div>
+            </div>
 
 
         </div>
@@ -127,12 +139,14 @@
 
                 <div class="close-icon-feed">
                     <br/>
-                    <a href="#"><img src="icon/x.png"  class="x"></a>
+                    <a href="#"><img src="icon/x.png" class="x">
+                    </a>
                     <br/>
                     <br/>
                     <br/>
-                    
-                    <a href="#"><img src="icon/options.svg" class="opt"></a>
+
+                    <a href="#"><img src="icon/options.svg" class="opt">
+                    </a>
 
 
                 </div>

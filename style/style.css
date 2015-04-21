@@ -312,6 +312,8 @@ div {
     height: 180px;
     width: 180px;
     margin: 0 20px 0 0;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
 }
 
 .user_name {
@@ -344,21 +346,17 @@ div {
 /********************************************************************************/
 /* BEGIN  filter*/
 
-.filter {
+.filter { 
     background-color: white;
-    border-bottom: 2px solid #efeef1;
-    
-    height: 40px;
-    
-  
+    border-bottom: 2px solid #efeef1; 
+    height: 35px;  
 }
 
 .active {
-    /*font-family: "OpenSansSemiBold", Times, Sans-serif;*/ 
-    font-family: "OpenSansRegular", Times, Sans-serif;
+   font-family: "OpenSansSemiBold", Times, Sans-serif;
+    /* font-family: "OpenSansRegular", Times, Sans-serif;*/ 
     font-size: 16px;
-    color: #ff5600;
-    float: left;
+    color: #ff5600; 
 }
 
 .active-no {
@@ -371,7 +369,7 @@ div {
 
 .filter span {
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 50px; 
 }
  
 .centr {
@@ -379,6 +377,26 @@ div {
     height: 30px;;
     width: 2px;
     background-color: #f6f5f8;
+}
+
+
+.left-filter { 
+    width: 240px;
+    float: left;
+    padding-left: 33%; 
+}
+
+.right-filter {
+    width: 300px;
+float: left;
+    padding-left:17px;;
+}
+
+.select_line {
+    border-bottom:3px solid red;
+    padding:5px;
+    width: 160px;
+   margin-left:  20px;
 }
 
 /* END filter*/
@@ -417,6 +435,8 @@ article {
     width: 180px;
     height: 140px;
     float: left;
+    
+   
 }
 
 .nic {
@@ -490,5 +510,8 @@ article {
     color: #8e8e8e;
     padding-right: 13px;
 }
+
+
+
 
 
