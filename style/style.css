@@ -293,6 +293,8 @@ div {
 .header-bottom {
     background-color: white;
     position: relative;
+    
+ 
 }
 
 .header-bottom img {
@@ -353,6 +355,8 @@ div {
     background-color: white;
     border-bottom: 2px solid #efeef1; 
     height: 35px;  
+    
+    padding-top: 10px;
 }
 
 .active {
@@ -397,7 +401,7 @@ float: left;
 }
 
 .select_line {
-    border-bottom:3px solid red;
+    border-bottom:3px solid #ff5600;
     padding:5px;
     width: 160px;
    margin-left:  20px;
@@ -457,7 +461,7 @@ article {
 
 .text {
     font-family: "OpenSansBold", Times, bold;
-    font-size: 14px;
+    font-size: 16px;
     color: #303030;
 }
 
@@ -542,3 +546,7 @@ article {
 
 
 
+
+.Bookmarks {
+   
+}
