@@ -381,10 +381,7 @@ div {
 }
  
 .centr {
-    float: left;
-    height: 30px;;
-    width: 2px;
-    background-color: #f6f5f8;
+    
 }
 
 
@@ -547,6 +544,4 @@ article {
 
 
 
-.Bookmarks {
-   
-}
+ 
